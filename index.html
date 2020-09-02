@@ -16,9 +16,6 @@
         ul > li{
             display:inline-block;
         }
-        ul {
-            text-align: center;
-        }
         a {
             color: #5F6A6A;
             font-weight: bold;
@@ -34,31 +31,38 @@
             margin-left: auto;
             margin-right: auto;
         }
-        #header {
-            padding-top: 5%;
-        }
         #name {
-            text-align: center;
             font-weight: bold;
         }
-        #projects {
-            padding-left: 37%;
+        #wrapper {
+            display: flex;
         }
+        #left {
+            flex: 0 0 50%;
+            padding-top: 5%;
+            padding-left: 25%;
+        }
+        #right {
+            flex: 1;
+        }
+
     </style>
     <title>Joanna Zhou</title>
 </head>
 <body>
-    <div id="header">
-        <h1 id="name">J O A N N A \ Z H O U</h1><br>
+    <div id="wrapper">
+        <div id="left">
+            <h1 id="name">J O A N N A \ Z H O U</h1><br>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/joannazhouyf/" target="_blank">LINKEDIN</a></li>
+                <li><a href="https://github.com/jo-zho" target="_blank">GITHUB</a></li>
+            </ul><br>
+        </div>
 
-        <ul>
-            <li><a href="https://www.linkedin.com/in/joannazhouyf/" target="_blank">LINKEDIN</a></li>
-            <li><a href="https://github.com/jo-zho" target="_blank">GITHUB</a></li>
-        </ul><br>
+        <div id="right">
+        </div>
     </div>
-    <div id="projects">
-        <h2>Projects</h2><br>
-    </div>
+
 
 </body>
 </html>
