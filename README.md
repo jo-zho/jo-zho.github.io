@@ -1,2 +1,3 @@
 # jo-zho.github.io
-Personal website hosted on GitHub Pages
+- Personal website for practing web development
+- Hosted on GitHub Pages
